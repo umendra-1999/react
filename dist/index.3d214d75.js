@@ -2965,8 +2965,40 @@ const heading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     lineNumber: 5,
     columnNumber: 15
 }, undefined);
+const HeaderComponent = function() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            heading,
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: "namaste react from umendra"
+            }, void 0, false, {
+                fileName: "index.js",
+                lineNumber: 11,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: " this is h2 tag "
+            }, void 0, false, {
+                fileName: "index.js",
+                lineNumber: 12,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "index.js",
+        lineNumber: 8,
+        columnNumber: 9
+    }, this);
+};
+_c = HeaderComponent;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(heading);
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeaderComponent, {}, void 0, false, {
+    fileName: "index.js",
+    lineNumber: 19,
+    columnNumber: 13
+}, undefined));
+var _c;
+$RefreshReg$(_c, "HeaderComponent");
 
   $parcel$ReactRefreshHelpers$e4e3.postlude(module);
 } finally {
